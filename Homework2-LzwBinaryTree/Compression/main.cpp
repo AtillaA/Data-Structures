@@ -1,10 +1,10 @@
-//------------------------------------------//
-//			Atilla Alpay Nalcaci			//
-//				   19510					//
-//				19.11.2018					//
-//			CS300 - Homework 2				//
-//				Compressor					//
-//------------------------------------------//
+//--------------------------------------//
+//	   Atilla Alpay Nalcaci		//
+//		   19510		//
+//		19.11.2018		//
+//	    CS300 - Homework 2		//
+//		Compressor		//
+//--------------------------------------//
 
 #include <iostream>
 #include <string>
@@ -53,8 +53,8 @@ int main()
 	{
 		if (static_cast<int>(eachChar) == 13) { continue; }			
 
-		newPhrase.push_back(eachChar);					// Add the character 'each' to the string newPhrase in order to store.
-		temp = dictionary.find(newPhrase);				// Find the 'newPhrase' in BST and equalize the local variable 'temp' to it.
+		newPhrase.push_back(eachChar);				// Add the character 'each' to the string newPhrase in order to store.
+		temp = dictionary.find(newPhrase);			// Find the 'newPhrase' in BST and equalize the local variable 'temp' to it.
 
 		if (temp == -1 && newPhrase.length() > 1)		// If the 'newPhrase' is not in the 'dictionary',
 		{
@@ -64,10 +64,10 @@ int main()
 			else { finalNum = dictionary.find(prevPhrase); }
 				
 			outputFile << finalNum << " ";				// Print the code of the first compression.
-			newPhrase = eachChar;							// 'newPhrase' is now equal to the last character in the string.
+			newPhrase = eachChar;					// 'newPhrase' is now equal to the last character in the string.
 		}
 
-		prevPhrase = newPhrase;							// 'oldPhrase' is now equal to 'newPhrase'. 
+		prevPhrase = newPhrase;						// 'oldPhrase' is now equal to 'newPhrase'. 
 	}
 
 	/**
