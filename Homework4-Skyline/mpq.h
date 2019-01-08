@@ -1,10 +1,10 @@
-//------------------------------------------//
-//			 Atilla Alpay Nalcaci			//
-//				    19510					//
-//				 19.12.2018					//
-//			 CS300 - Homework 4				//
-//    Modified Priority Queue Header File   //
-//------------------------------------------//
+//--------------------------------------//
+//	   Atilla Alpay Nalcaci		//
+//		   19510		//
+//		19.12.2018		//
+//	    CS300 - Homework 2		//
+//  Modified Priority Queue Header File //
+//--------------------------------------//
 
 /**
 * All class definitions and functions provided below are gathered & edited from lecture slides of 2018/19 Fall term.
