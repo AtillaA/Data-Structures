@@ -1,10 +1,10 @@
-//------------------------------------------//
-//			Atilla Alpay Nalcaci			//
-//				   19510					//
-//				19.11.2018					//
-//			CS300 - Homework 2				//
-//		Binary Search Tree Header File		//
-//------------------------------------------//
+//--------------------------------------//
+//	   Atilla Alpay Nalcaci		//
+//		   19510		//
+//		19.11.2018		//
+//	    CS300 - Homework 2		//
+//    Binary Search Tree Header File    //
+//--------------------------------------//
 
 /**
 * All class definitions and functions provided below are gathered & edited from lecture slides of 2018/19 Fall term.
